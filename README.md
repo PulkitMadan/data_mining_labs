@@ -12,7 +12,7 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 
 - [x] For the discrete attribute, count the frequency for each of its distinct values.
 
-- [ ] For each diagram describe your interpretation and insight.
+- [x] For each diagram describe your interpretation and insight.
 
 - [x] Draw histogram of the class variable
 
@@ -26,11 +26,11 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 
 - Identify which attributes have missing values and address the issue by: 
 
-- [ ] Replacing missing values by the average or mod of the attribute (based on attribute types)
+- [x] Replacing missing values by the average or mod of the attribute (based on attribute types)
 
-- [ ] Replace missing values by the average or mode of the attribute in the particular class to which the instance belongs  
+- [x] Replace missing values by the average or mode of the attribute in the particular class to which the instance belongs  
 
-- [ ] Draw a histogram of the attribute before and after replacing missing values in the previous step 1 and 2
+- [x] Draw a histogram of the attribute before and after replacing missing values in the previous step 1 and 2
 
 
 ## Lab 3
