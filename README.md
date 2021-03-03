@@ -39,11 +39,11 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 - Build a decision tree model and evaluate the model using:
 
   - Holdout
-    - [ ] Use 90% of data set for train and 10 % for the test, and perform it 5 times, the final results are the average of performance trials
-    - [ ] You should report the Accuracy, Precision and F-measure for each trial as well as their final average (use a table and then a bar chart)
+    - [X] Use 90% of data set for train and 10 % for the test, and perform it 5 times, the final results are the average of performance trials
+    - [X] You should report the Accuracy, Precision and F-measure for each trial as well as their final average (use a table and then a bar chart)
   - Cross-validation 
-    - [ ] Perform 10-fold cross-validation for evaluating the model 
-    - [ ] You should report the Accuracy, Precision and F-measure for each trial as well as their final average ((use a table and then a bar chart))
+    - [X] Perform 10-fold cross-validation for evaluating the model 
+    - [X] You should report the Accuracy, Precision and F-measure for each trial as well as their final average ((use a table and then a bar chart))
 
 
 ### Part II
@@ -51,9 +51,9 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 - Compare the final Accuracy of cross-validation of Part I and II using some figures 
 
 ### Part III
-- [ ] Use the holdout method (train: 90 % data set, test: 10 % set) 
-    - [ ] Investigate the effect of tree depth on the accuracy of the model (see the tutorial)
-      - [ ] Change the tree depth (e.g, 2, 5, 8, ..., 50) and draw training and test accuracy 
+- [X] Use the holdout method (train: 90 % data set, test: 10 % set) 
+    - [X] Investigate the effect of tree depth on the accuracy of the model (see the tutorial)
+      - [X] Change the tree depth (e.g, 2, 5, 8, ..., 50) and draw training and test accuracy 
       - [ ] Explain your observation 
 
 ## Lab 4
