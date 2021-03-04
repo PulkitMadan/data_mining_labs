@@ -54,7 +54,7 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 - [X] Use the holdout method (train: 90 % data set, test: 10 % set) 
     - [X] Investigate the effect of tree depth on the accuracy of the model (see the tutorial)
       - [X] Change the tree depth (e.g, 2, 5, 8, ..., 50) and draw training and test accuracy 
-      - [ ] Explain your observation 
+      - [X] Explain your observation 
 
 ## Lab 4
 
