@@ -62,23 +62,23 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 
 - Build a k-NN model and compare its efficiency with another model:
 
-  - [ ] Perform preprocessing (normalization) if it is necessary
-  - [ ] Build k-NN classifier for k = 5:  
-    - [ ] Use 90% of data set for the train and 10 % for the test, and perform evaluation 5 times, the final results are the average of trails performance
-    - [ ] You should report the final average F-measure, and average test time (the time that model spends to predict labels for the test dataset instances). Use bar charts.
-  - [ ] Repeat (2) for building a decision tree classifier (use default parameters). 
-  - [ ] Compare results of part (2) and (3) using appropriate charts
+  - [X] Perform preprocessing (normalization) if it is necessary
+  - [X] Build k-NN classifier for k = 5:  
+    - [X] Use 90% of data set for the train and 10 % for the test, and perform evaluation 5 times, the final results are the average of trails performance
+    - [X] You should report the final average F-measure, and average test time (the time that model spends to predict labels for the test dataset instances). Use bar charts.
+  - [X] Repeat (2) for building a decision tree classifier (use default parameters). 
+  - [X] Compare results of part (2) and (3) using appropriate charts
 
 ### Part II (Model Selection): 
 - Perform model selection for the k-NN and decision tree:
 
-  - [ ] Perform preprocessing (normalization) if it is necessary
-  - [ ] Build k-NN classifier for different k (1, 2, 3, 4, 5) and select the best k: 
-      - [ ] Use 90% of data set for train and 10 % for the test,  and 10% of the train for validation
-      - [ ] Build the k-NN model using the train data set and select the best k based on F-measure on the validation set
-  - [ ] Build the decision tree model using the train data set and select the best tree:
-      - [ ] Change the tree depth (3, 4...10) and calculate F-measure on the validation set
-      - [ ] Compare results of part (2) and (3) using the appropriate charts
+  - [X] Perform preprocessing (normalization) if it is necessary
+  - [X] Build k-NN classifier for different k (1, 2, 3, 4, 5) and select the best k: 
+      - [X] Use 90% of data set for train and 10 % for the test,  and 10% of the train for validation
+      - [X] Build the k-NN model using the train data set and select the best k based on F-measure on the validation set
+  - [X] Build the decision tree model using the train data set and select the best tree:
+      - [X] Change the tree depth (3, 4...10) and calculate F-measure on the validation set
+      - [X] Compare results of part (2) and (3) using the appropriate charts
 
 
 
