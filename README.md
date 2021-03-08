@@ -8,17 +8,17 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 
 ### Part I 
 
-- [ ] For each continuous attribute, calculate its average, standard deviation, minimum, and maximum values.
+- [x] For each continuous attribute, calculate its average, standard deviation, minimum, and maximum values.
 
-- [ ] For the discrete attribute, count the frequency for each of its distinct values.
+- [x] For the discrete attribute, count the frequency for each of its distinct values.
 
-- [ ] For each diagram describe your interpretation and insight.
+- [x] For each diagram describe your interpretation and insight.
 
-- [ ] Draw histogram of the class variable
+- [x] Draw histogram of the class variable
 
-- [ ] Draw the distribution of values for a continuous attribute using a histogram.
+- [x] Draw the distribution of values for a continuous attribute using a histogram.
 
-- [ ] Draw some scatter plots for a couple of attribute pairs.
+- [x] Draw some scatter plots for a couple of attribute pairs.
 
 - [ ] Draw a parallel diagram for some attributes in the data set
 
@@ -26,11 +26,11 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 
 - Identify which attributes have missing values and address the issue by: 
 
-- [ ] Replacing missing values by the average or mod of the attribute (based on attribute types)
+- [x] Replacing missing values by the average or mod of the attribute (based on attribute types)
 
-- [ ] Replace missing values by the average or mode of the attribute in the particular class to which the instance belongs  
+- [x] Replace missing values by the average or mode of the attribute in the particular class to which the instance belongs  
 
-- [ ] Draw a histogram of the attribute before and after replacing missing values in the previous step 1 and 2
+- [x] Draw a histogram of the attribute before and after replacing missing values in the previous step 1 and 2
 
 
 ## Lab 3
@@ -39,11 +39,11 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 - Build a decision tree model and evaluate the model using:
 
   - Holdout
-    - [ ] Use 90% of data set for train and 10 % for the test, and perform it 5 times, the final results are the average of performance trials
-    - [ ] You should report the Accuracy, Precision and F-measure for each trial as well as their final average (use a table and then a bar chart)
+    - [X] Use 90% of data set for train and 10 % for the test, and perform it 5 times, the final results are the average of performance trials
+    - [X] You should report the Accuracy, Precision and F-measure for each trial as well as their final average (use a table and then a bar chart)
   - Cross-validation 
-    - [ ] Perform 10-fold cross-validation for evaluating the model 
-    - [ ] You should report the Accuracy, Precision and F-measure for each trial as well as their final average ((use a table and then a bar chart))
+    - [X] Perform 10-fold cross-validation for evaluating the model 
+    - [X] You should report the Accuracy, Precision and F-measure for each trial as well as their final average ((use a table and then a bar chart))
 
 
 ### Part II
@@ -51,10 +51,10 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 - Compare the final Accuracy of cross-validation of Part I and II using some figures 
 
 ### Part III
-- [ ] Use the holdout method (train: 90 % data set, test: 10 % set) 
-    - [ ] Investigate the effect of tree depth on the accuracy of the model (see the tutorial)
-      - [ ] Change the tree depth (e.g, 2, 5, 8, ..., 50) and draw training and test accuracy 
-      - [ ] Explain your observation 
+- [X] Use the holdout method (train: 90 % data set, test: 10 % set) 
+    - [X] Investigate the effect of tree depth on the accuracy of the model (see the tutorial)
+      - [X] Change the tree depth (e.g, 2, 5, 8, ..., 50) and draw training and test accuracy 
+      - [X] Explain your observation 
 
 ## Lab 4
 
@@ -62,23 +62,23 @@ Source code for CSCI 4150: Data Mining Labs at Ontario Tech University
 
 - Build a k-NN model and compare its efficiency with another model:
 
-  - [ ] Perform preprocessing (normalization) if it is necessary
-  - [ ] Build k-NN classifier for k = 5:  
-    - [ ] Use 90% of data set for the train and 10 % for the test, and perform evaluation 5 times, the final results are the average of trails performance
-    - [ ] You should report the final average F-measure, and average test time (the time that model spends to predict labels for the test dataset instances). Use bar charts.
-  - [ ] Repeat (2) for building a decision tree classifier (use default parameters). 
-  - [ ] Compare results of part (2) and (3) using appropriate charts
+  - [X] Perform preprocessing (normalization) if it is necessary
+  - [X] Build k-NN classifier for k = 5:  
+    - [X] Use 90% of data set for the train and 10 % for the test, and perform evaluation 5 times, the final results are the average of trails performance
+    - [X] You should report the final average F-measure, and average test time (the time that model spends to predict labels for the test dataset instances). Use bar charts.
+  - [X] Repeat (2) for building a decision tree classifier (use default parameters). 
+  - [X] Compare results of part (2) and (3) using appropriate charts
 
 ### Part II (Model Selection): 
 - Perform model selection for the k-NN and decision tree:
 
-  - [ ] Perform preprocessing (normalization) if it is necessary
-  - [ ] Build k-NN classifier for different k (1, 2, 3, 4, 5) and select the best k: 
-      - [ ] Use 90% of data set for train and 10 % for the test,  and 10% of the train for validation
-      - [ ] Build the k-NN model using the train data set and select the best k based on F-measure on the validation set
-  - [ ] Build the decision tree model using the train data set and select the best tree:
-      - [ ] Change the tree depth (3, 4...10) and calculate F-measure on the validation set
-      - [ ] Compare results of part (2) and (3) using the appropriate charts
+  - [X] Perform preprocessing (normalization) if it is necessary
+  - [X] Build k-NN classifier for different k (1, 2, 3, 4, 5) and select the best k: 
+      - [X] Use 90% of data set for train and 10 % for the test,  and 10% of the train for validation
+      - [X] Build the k-NN model using the train data set and select the best k based on F-measure on the validation set
+  - [X] Build the decision tree model using the train data set and select the best tree:
+      - [X] Change the tree depth (3, 4...10) and calculate F-measure on the validation set
+      - [X] Compare results of part (2) and (3) using the appropriate charts
 
 
 
